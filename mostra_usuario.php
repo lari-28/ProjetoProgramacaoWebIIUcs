@@ -19,6 +19,7 @@ echo "<section>";
 echo "<h1> Login : " . $usuario->getLogin() . "</h1>";
 echo "<p> Id : " . $usuario->getId() . "</p>";
 echo "<p> Nome : " . $usuario->getNome() . "</p>";
+echo "<p> Interno : " . ($usuario->getInterno() ? "Sim" : "N&atilde;o") . "</p>";
 // botão voltar
 echo "<a href='usuarios.php' class='btn btn-primary left-margin'>";
 echo "Voltar";

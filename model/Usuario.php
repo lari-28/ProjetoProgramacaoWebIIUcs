@@ -5,13 +5,16 @@ class Usuario {
     private $login;
     private $senha;
     private $nome;
+    private $interno;
 
-    public function __construct( $id, $login, $senha, $nome)
+    public function __construct( $id, $login, $senha, $nome, $interno)
     {
         $this->id=$id;
         $this->login=$login;
         $this->senha=$senha;
         $this->nome=$nome;
+        $this->interno=$interno;
+
     }
 
     public function getId() { return $this->id; }
@@ -25,5 +28,8 @@ class Usuario {
 
     public function getSenha() { return $this->senha; }
     public function setSenha($senha) {$this->senha = $senha;}
+
+    public function getInterno() { return $this->interno; }
+    public function setInterno($interno) {$this->interno = $interno;}
 }
 ?>

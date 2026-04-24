@@ -28,6 +28,9 @@ include_once "layout_header.php";
             <td><input type='password' name='senha' value='<?php echo $usuario->getSenha();?>' class='form-control' /></td>
         </tr>
         <tr>
+            <td>Interno</td>
+            <td><input type='checkbox' name='interno' <?php echo $usuario->getInterno() ? "checked" : "";?> class='form-control' /></td>
+        <tr>
             <td>
             </td>
             <td>

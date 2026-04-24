@@ -22,11 +22,15 @@ if ($erro === "login_duplicado") {
         </tr>
          <tr>
             <td>Senha</td>
-            <td><input type='text' name='senha' class='form-control' /></td>
+            <td><input type='password' name='senha' class='form-control' /></td>
         </tr>
          <tr>
             <td>Nome</td>
             <td><input type='text' name='nome' class='form-control' /></td>
+        </tr>
+        <tr>
+            <td>Interno</td>
+            <td><input type='checkbox' name='interno' class='form-control' /></td>
         </tr>
         <tr>
             <td></td>
